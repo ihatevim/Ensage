@@ -1,0 +1,3 @@
+C:\Users\ihate\Documents\GitHub\Ensage\OverylayInformationV2\bin\Release\OverlayInformation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\OverylayInformationV2\obj\Debug\OverylayInformationV2.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\OverylayInformationV2\obj\Debug\OverylayInformationV2.csproj.OverlayInformation.exe.config

@@ -22,3 +22,6 @@ D:\Downloads\Evader\bin\Debug\Ensage.Common.pdb
 D:\Downloads\Evader\bin\Debug\Ensage.SDK.pdb
 D:\Downloads\Evader\obj\Debug\Evader.exe
 D:\Downloads\Evader\obj\Debug\Evader.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\Evader\bin\Debug\Evader.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\Evader\obj\Debug\Evader.exe
+C:\Users\ihate\Documents\GitHub\Ensage\Evader\obj\Debug\Evader.pdb
