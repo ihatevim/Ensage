@@ -64,3 +64,15 @@ C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihi
 C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\Ensage.Common.pdb
 C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\EnsageSharp.Sandbox.pdb
 C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\Debug\InvokerAnnihilation.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\Debug\InvokerAnnihilation.csproj.InvokerAnnihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\clipper_library.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\Ensage.Common.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\Ensage.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\Ensage.SDK.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\PlaySharp.Toolkit.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\SharpDX.Direct2D1.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\SharpDX.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\SharpDX.Mathematics.dll
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\clipper_library.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\bin\Release\Ensage.SDK.pdb

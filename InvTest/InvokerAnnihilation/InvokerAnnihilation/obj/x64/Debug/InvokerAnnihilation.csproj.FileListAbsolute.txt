@@ -40,3 +40,7 @@ E:\Ensage\EnsageSharp\EnsageSharp\InvTest\InvokerAnnihilation\InvokerAnnihilatio
 E:\Ensage\EnsageSharp\EnsageSharp\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.csprojResolveAssemblyReference.cache
 E:\Ensage\EnsageSharp\EnsageSharp\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.exe
 E:\Ensage\EnsageSharp\EnsageSharp\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.csproj.InvokerAnnihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.exe
+C:\Users\ihate\Documents\GitHub\Ensage\InvTest\InvokerAnnihilation\InvokerAnnihilation\obj\x64\Debug\InvokerAnnihilation.pdb
