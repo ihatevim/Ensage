@@ -201,7 +201,7 @@ namespace OverlayInformation
                         safeList.Add(particleEffect);
                         var pos = DrawOnMiniMap ? Helper.WorldToMinimap(position) : new Vector2();
                         var player =
-                                ObjectManager.GetPlayerByID(
+                                ObjectManager.GetPlayerById(
                                     (uint)ColorList.FindIndex(x => x == particleEffect.GetColor));
                         if (player == null || !player.IsValid)
                             continue;
@@ -280,7 +280,7 @@ namespace OverlayInformation
                 Log.Debug($"Wrong id: {id} || clr: {color.PrintVector()}");
                 return;
             }
-            var player = ObjectManager.GetPlayerByID(id);
+            var player = ObjectManager.GetPlayerById(id);
             var dontTryToFindBoots = false;
             if (player == null || !player.IsValid)
             {
