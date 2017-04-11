@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{21D7E4EF-319E-4AD4-A59C-45AF22072DCA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Ensage.Common</RootNamespace>
+    <AssemblyName>Ensage.Common</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PreBuildEvent />
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\Release</OutputPath>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Debug\Ensage.Common.xml</DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>bin\Release\Ensage.Common.xml</DocumentationFile>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <CodeAnalysisRuleSet>Ensage.Common.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ensage">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\References\Ensage.dll</HintPath>
+    </Reference>
+    <Reference Include="Ensage.Common">
+      <HintPath>..\Ensage.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="EnsageSharp.Sandbox">
+      <HintPath>C:\EnsageSharpTest\System\EnsageSharp.Sandbox.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\..\References\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+      <SpecificVersion>False</SpecificVersion>
+    </Reference>
+    <Reference Include="PlaySharp.Service">
+      <HintPath>..\..\..\References\PlaySharp.Service.dll</HintPath>
+    </Reference>
+    <Reference Include="PlaySharp.Toolkit">
+      <HintPath>..\..\..\References\PlaySharp.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\References\SharpDX.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct2D1">
+      <HintPath>..\..\..\References\SharpDX.Direct2D1.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D11">
+      <HintPath>..\..\..\References\SharpDX.Direct3D11.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Direct3D9">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\References\SharpDX.Direct3D9.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.DXGI">
+      <HintPath>..\..\..\References\SharpDX.DXGI.dll</HintPath>
+    </Reference>
+    <Reference Include="SharpDX.Mathematics">
+      <HintPath>..\..\..\References\SharpDX.Mathematics.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Collections.Immutable, Version=1.1.37.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\References\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="WindowsBase" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbilityInfo\AbilityDamage.cs" />
+    <Compile Include="Algorithm.cs" />
+    <Compile Include="Composer.cs" />
+    <Compile Include="DelayAction.cs" />
+    <Compile Include="DelayActionItem.cs" />
+    <Compile Include="Enums\AbilityId.cs" />
+    <Compile Include="Enums\ItemId.cs" />
+    <Compile Include="Extensions\AbilityExtensions.cs" />
+    <Compile Include="Extensions\Damage\DamageBlocks.cs" />
+    <Compile Include="Extensions\Damage\Calculations.cs" />
+    <Compile Include="Extensions\Damage\DamageTaken.cs" />
+    <Compile Include="Extensions\EntityExtensions.cs" />
+    <Compile Include="Extensions\EnumerableExtensions.cs" />
+    <Compile Include="Extensions\Damage\ExternalDmgAmps.cs" />
+    <Compile Include="Extensions\Damage\ExternalDmgReductions.cs" />
+    <Compile Include="Extensions\HeroExtensions.cs" />
+    <Compile Include="Extensions\ItemExtensions.cs" />
+    <Compile Include="Extensions\MeepoExtensions.cs" />
+    <Compile Include="Extensions\SharpDX\Generic.cs" />
+    <Compile Include="Extensions\SharpDX\Vector2Extensions.cs" />
+    <Compile Include="Extensions\SharpDX\Vector3Extensions.cs" />
+    <Compile Include="Extensions\SharpDX\Vector4Extensions.cs" />
+    <Compile Include="Extensions\UnitExtensions.cs" />
+    <Compile Include="FuncWheel\FunctionWheel.cs" />
+    <Compile Include="FuncWheel\IWheelEntry.cs" />
+    <Compile Include="FuncWheel\WheelEntry.cs" />
+    <Compile Include="HUDInfo.cs" />
+    <Compile Include="Menu\Draw\DragAndDrop.cs" />
+    <Compile Include="Menu\Draw\DraggableItem.cs" />
+    <Compile Include="Menu\Draw\OnOffCircleSlider.cs" />
+    <Compile Include="Menu\Draw\OnOffSlider.cs" />
+    <Compile Include="Menu\Draw\PriorityIcon.cs" />
+    <Compile Include="Menu\Draw\ResizableItem.cs" />
+    <Compile Include="Menu\IMenuTheme.cs" />
+    <Compile Include="Menu\MenuDrawHelper.cs" />
+    <Compile Include="Menu\MenuGlobals.cs" />
+    <Compile Include="Menu\MenuItem.cs" />
+    <Compile Include="Menu\MenuItems\AllyHeroesToggler.cs" />
+    <Compile Include="Menu\MenuItems\EnemyHeroesToggler.cs" />
+    <Compile Include="Menu\MenuItems\OnOffSlider.cs" />
+    <Compile Include="Menu\MenuItems\StringSwitcher.cs" />
+    <Compile Include="Menu\MenuSettings.cs" />
+    <Compile Include="Menu\AbilityToggler.cs" />
+    <Compile Include="Menu\CommonMenu.cs" />
+    <Compile Include="Menu\HeroToggler.cs" />
+    <Compile Include="Menu\KeyBind.cs" />
+    <Compile Include="Menu\KeyBindType.cs" />
+    <Compile Include="Menu\MenuValueType.cs" />
+    <Compile Include="Menu\MenuVariables.cs" />
+    <Compile Include="Menu\PriorityChanger.cs" />
+    <Compile Include="Menu\Slider.cs" />
+    <Compile Include="Menu\StringList.cs" />
+    <Compile Include="Menu\OnValueChangeEventArgs.cs" />
+    <Compile Include="Menu\SavedSettings.cs" />
+    <Compile Include="Menu\Themes\BlackTransparent.cs" />
+    <Compile Include="Menu\Themes\BlueTransparent.cs" />
+    <Compile Include="Menu\Themes\Blue.cs" />
+    <Compile Include="Menu\Themes\DarkRedTransparent.cs" />
+    <Compile Include="Menu\Themes\DarkRed.cs" />
+    <Compile Include="Menu\Themes\Default.cs" />
+    <Compile Include="Menu\Themes\Gray.cs" />
+    <Compile Include="Menu\Themes\GrayTransparent.cs" />
+    <Compile Include="Menu\Themes\DefaultTransparent.cs" />
+    <Compile Include="Menu\Transitions\CircEaseOutIn.cs" />
+    <Compile Include="Menu\Transitions\ElasticEaseInOut.cs" />
+    <Compile Include="Menu\Transitions\ExpoEaseInOut.cs" />
+    <Compile Include="Menu\Transitions\QuadEaseOut.cs" />
+    <Compile Include="Menu\Transitions\QuartEaseInOut.cs" />
+    <Compile Include="Menu\Transitions\CubicEaseInOut.cs" />
+    <Compile Include="Menu\Transitions\Transition.cs" />
+    <Compile Include="Menu\Transitions\QuadEaseInOut.cs" />
+    <Compile Include="Objects\Abilities.cs" />
+    <Compile Include="Objects\Creeps.cs" />
+    <Compile Include="Objects\DrawObjects\Circle.cs" />
+    <Compile Include="Objects\DrawObjects\DrawVerticalLine.cs" />
+    <Compile Include="Objects\DrawObjects\DrawObject.cs" />
+    <Compile Include="Objects\DrawObjects\DrawRect.cs" />
+    <Compile Include="Objects\DrawObjects\DrawText.cs" />
+    <Compile Include="Objects\DrawObjects\DrawType.cs" />
+    <Compile Include="Objects\DrawObjects\IDrawObject.cs" />
+    <Compile Include="Objects\DrawObjects\Polygon.cs" />
+    <Compile Include="Objects\Heroes.cs" />
+    <Compile Include="Objects\JungleCamp.cs" />
+    <Compile Include="Objects\JungleCamps.cs" />
+    <Compile Include="Events.cs" />
+    <Compile Include="Menu\Menu.cs" />
+    <Compile Include="Menu\MenuConfig.cs" />
+    <Compile Include="Menu\MenuUtils.cs" />
+    <Compile Include="Menu\MultiLanguage.cs" />
+    <Compile Include="Objects\Lane.cs" />
+    <Compile Include="Objects\LanePosition.cs" />
+    <Compile Include="Objects\Lanes.cs" />
+    <Compile Include="Objects\Names.cs" />
+    <Compile Include="Objects\Players.cs" />
+    <Compile Include="Objects\RenderObjects\IRenderObject.cs" />
+    <Compile Include="Objects\RenderObjects\Rectangle.cs" />
+    <Compile Include="Objects\RenderObjects\RenderObject.cs" />
+    <Compile Include="Objects\Textures.cs" />
+    <Compile Include="Objects\Towers.cs" />
+    <Compile Include="Objects\Trees.cs" />
+    <Compile Include="Objects\UtilityObjects\AttackAnimationTracker.cs" />
+    <Compile Include="Objects\UtilityObjects\Attacker.cs" />
+    <Compile Include="Objects\UtilityObjects\Minimap.cs" />
+    <Compile Include="Objects\UtilityObjects\MultiSleeper.cs" />
+    <Compile Include="Objects\UtilityObjects\Orbwalker.cs" />
+    <Compile Include="Objects\UtilityObjects\Sleeper.cs" />
+    <Compile Include="Orbwalking.cs" />
+    <Compile Include="AbilityInfo\AbilityInfo.cs" />
+    <Compile Include="AbilityInfo\AbilityDatabase.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SideMessage.cs" />
+    <Compile Include="Signals\Signal.cs" />
+    <Compile Include="Signals\SignalManager.cs" />
+    <Compile Include="TargetSelector.cs" />
+    <Compile Include="Threading\AsyncHelpers.cs" />
+    <Compile Include="Combo\Combo.cs" />
+    <Compile Include="Combo\ComboBase.cs" />
+    <Compile Include="Threading\Await.cs" />
+    <Compile Include="Threading\EdgeTrigger.cs" />
+    <Compile Include="Threading\GameDispatcher.cs" />
+    <Compile Include="Threading\GameSynchronizationContext.cs" />
+    <Compile Include="Combo\ICombo.cs" />
+    <Compile Include="UnitDatabase.cs" />
+    <Compile Include="Prediction.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="UnitData\AttackAnimationData.cs" />
+    <Compile Include="UnitData\UnitInfo.cs" />
+    <Compile Include="Utils.cs" />
+    <Compile Include="Extensions\VectorExtensions.cs" />
+    <Compile Include="WindowsMessages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UnitDatabase.json" />
+    <None Include="Resources\AbilityDatabase.json" />
+    <None Include="stylecop.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>
