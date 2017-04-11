@@ -17,7 +17,7 @@ namespace InvokerAnnihilation
     internal static class Program
     {
         #region Members
-        private static readonly Menu Menu = new Menu("Invoker Annihilation", "InvokerAnnihilation", true, "npc_dota_hero_invoker", true);
+        private static Menu Menu = new Menu("Invoker Annihilation", "InvokerAnnihilation", true, "npc_dota_hero_invoker", true);
         private static readonly string Ver = Assembly.GetExecutingAssembly().GetName().Version.ToString();
         private const int WmKeyup = 0x0101;
         private static int _combo;
