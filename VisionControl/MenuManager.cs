@@ -65,9 +65,9 @@
             return enabled.GetValue<AbilityToggler>().IsEnabled(name);
         }
 
-        public bool IsEnabled(ClassID id)
+        public bool IsEnabled(ClassId id)
         {
-            var name = id == ClassID.CDOTA_NPC_Observer_Ward ? "item_ward_observer" : "item_ward_sentry";
+            var name = id == ClassId.CDOTA_NPC_Observer_Ward ? "item_ward_observer" : "item_ward_sentry";
             return IsEnabled(name);
         }
 

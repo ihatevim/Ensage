@@ -87,12 +87,12 @@
             Func<Unit, IUnit> func;
             if (Variables.Units.TryGetValue(abilityName, out func))
             {
-                if (unit.ClassID == ClassID.CDOTA_NPC_Observer_Ward && UpdateData<ObserverWard>(unit))
+                if (unit.ClassId == ClassId.CDOTA_NPC_Observer_Ward && UpdateData<ObserverWard>(unit))
                 {
                     return;
                 }
 
-                if (unit.ClassID == ClassID.CDOTA_NPC_Observer_Ward_TrueSight && UpdateData<SentryWard>(unit))
+                if (unit.ClassId == ClassId.CDOTA_NPC_Observer_Ward_TrueSight && UpdateData<SentryWard>(unit))
                 {
                     return;
                 }
@@ -279,12 +279,12 @@
                     continue;
                 }
 
-                if (PlacedWard(enemy, ClassID.CDOTA_Item_ObserverWard))
+                if (PlacedWard(enemy, ClassId.CDOTA_Item_ObserverWard))
                 {
                     AddWard<ObserverWard>(enemy);
                 }
 
-                if (PlacedWard(enemy, ClassID.CDOTA_Item_SentryWard))
+                if (PlacedWard(enemy, ClassId.CDOTA_Item_SentryWard))
                 {
                     AddWard<SentryWard>(enemy);
                 }
@@ -339,7 +339,7 @@
                         && x.ObserversCount + x.SentryCount < x.CountObservers() + x.CountSentries());
         }
 
-        private bool PlacedWard(EnemyHero enemy, ClassID id)
+        private bool PlacedWard(EnemyHero enemy, ClassId id)
         {
             var count = enemy.CountWards(id);
 

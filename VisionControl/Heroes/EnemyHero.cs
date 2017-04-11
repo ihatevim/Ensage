@@ -84,9 +84,9 @@
                           .SecondaryCharges ?? 0);
         }
 
-        public uint CountWards(ClassID id)
+        public uint CountWards(ClassId id)
         {
-            return id == ClassID.CDOTA_Item_ObserverWard ? CountObservers() : CountSentries();
+            return id == ClassId.CDOTA_Item_ObserverWard ? CountObservers() : CountSentries();
         }
 
         public float Distance(EnemyHero enemy)
@@ -94,19 +94,19 @@
             return hero.Distance2D(enemy.Position);
         }
 
-        public bool DroppedWard(ClassID id)
+        public bool DroppedWard(ClassId id)
         {
-            return ObjectManager.GetEntities<PhysicalItem>().Any(x => x.Item.ClassID == id && x.Distance2D(hero) < 100);
+            return ObjectManager.GetEntities<PhysicalItem>().Any(x => x.Item.ClassId == id && x.Distance2D(hero) < 100);
         }
 
-        public uint GetWardsCount(ClassID id)
+        public uint GetWardsCount(ClassId id)
         {
-            return id == ClassID.CDOTA_Item_ObserverWard ? ObserversCount : SentryCount;
+            return id == ClassId.CDOTA_Item_ObserverWard ? ObserversCount : SentryCount;
         }
 
-        public void SetWardsCount(ClassID id, uint count)
+        public void SetWardsCount(ClassId id, uint count)
         {
-            if (id == ClassID.CDOTA_Item_ObserverWard)
+            if (id == ClassId.CDOTA_Item_ObserverWard)
             {
                 ObserversCount = count;
             }
