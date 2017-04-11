@@ -1,0 +1,4 @@
+C:\Users\ihate\Documents\GitHub\Ensage\AbilityV2\Ability\Ability\bin\Debug\Ability.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\AbilityV2\Ability\Ability\obj\Debug\Ability.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\AbilityV2\Ability\Ability\obj\Debug\Ability.Properties.Resources.resources
+C:\Users\ihate\Documents\GitHub\Ensage\AbilityV2\Ability\Ability\obj\Debug\Ability.csproj.GenerateResource.Cache
