@@ -1,0 +1,22 @@
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Wisp Annihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\obj\Debug\Wisp Annihilation.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\obj\Debug\Wisp Annihilation.csproj.Wisp Annihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Wisp Annihilation.exe
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Wisp Annihilation.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\clipper_library.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Ensage.Common.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Ensage.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Ensage.SDK.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\PlaySharp.Toolkit.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.Direct2D1.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.Direct3D11.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.Direct3D9.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.DXGI.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\SharpDX.Mathematics.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\clipper_library.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Ensage.Common.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\bin\Debug\Ensage.SDK.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\obj\Debug\Wisp Annihilation.exe
+C:\Users\ihate\Documents\GitHub\Ensage\Wisp Annihilation\obj\Debug\Wisp Annihilation.pdb

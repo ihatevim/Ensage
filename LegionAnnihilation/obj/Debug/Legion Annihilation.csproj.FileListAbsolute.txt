@@ -1,0 +1,22 @@
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Legion Annihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\obj\Debug\Legion Annihilation.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\obj\Debug\Legion Annihilation.csproj.Legion Annihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Legion Annihilation.exe
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Legion Annihilation.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\clipper_library.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Ensage.Common.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Ensage.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Ensage.SDK.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\PlaySharp.Toolkit.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.Direct2D1.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.Direct3D11.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.Direct3D9.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.DXGI.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\SharpDX.Mathematics.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Newtonsoft.Json.dll
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\clipper_library.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Ensage.Common.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\bin\Release\Ensage.SDK.pdb
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\obj\Debug\Legion Annihilation.exe
+C:\Users\ihate\Documents\GitHub\Ensage\LegionAnnihilation\obj\Debug\Legion Annihilation.pdb
