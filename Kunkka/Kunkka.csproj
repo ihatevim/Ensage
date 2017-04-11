@@ -33,50 +33,16 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="clipper_library">
-      <HintPath>D:\Downloads\References\clipper_library.dll</HintPath>
-    </Reference>
     <Reference Include="Ensage">
-      <HintPath>D:\Downloads\References\Ensage.dll</HintPath>
+      <HintPath>C:\BanIsComing\References\Ensage.dll</HintPath>
     </Reference>
     <Reference Include="Ensage.Common">
-      <HintPath>D:\Downloads\References\Ensage.Common.dll</HintPath>
-    </Reference>
-    <Reference Include="Ensage.SDK">
-      <HintPath>D:\Downloads\References\Ensage.SDK.dll</HintPath>
-    </Reference>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>D:\Downloads\References\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="PlaySharp.Service">
-      <HintPath>D:\Downloads\References\PlaySharp.Service.dll</HintPath>
-    </Reference>
-    <Reference Include="PlaySharp.Toolkit">
-      <HintPath>D:\Downloads\References\PlaySharp.Toolkit.dll</HintPath>
+      <HintPath>C:\BanIsComing\References\Ensage.Common.dll</HintPath>
     </Reference>
     <Reference Include="SharpDX">
-      <HintPath>D:\Downloads\References\SharpDX.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct2D1">
-      <HintPath>D:\Downloads\References\SharpDX.Direct2D1.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D11">
-      <HintPath>D:\Downloads\References\SharpDX.Direct3D11.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Direct3D9">
-      <HintPath>D:\Downloads\References\SharpDX.Direct3D9.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.DXGI">
-      <HintPath>D:\Downloads\References\SharpDX.DXGI.dll</HintPath>
-    </Reference>
-    <Reference Include="SharpDX.Mathematics">
-      <HintPath>D:\Downloads\References\SharpDX.Mathematics.dll</HintPath>
+      <HintPath>C:\BanIsComing\References\SharpDX.dll</HintPath>
     </Reference>
     <Reference Include="System" />
-    <Reference Include="System.Collections.Immutable, Version=1.1.37.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>D:\Downloads\References\System.Collections.Immutable.dll</HintPath>
-    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
