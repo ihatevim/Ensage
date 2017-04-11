@@ -1,0 +1,3 @@
+C:\Users\ihate\Documents\GitHub\Ensage\TemplarAnnihilation\bin\Debug\TemplarAnnihilation.exe.config
+C:\Users\ihate\Documents\GitHub\Ensage\TemplarAnnihilation\obj\Debug\TemplarAnnihilation.csprojResolveAssemblyReference.cache
+C:\Users\ihate\Documents\GitHub\Ensage\TemplarAnnihilation\obj\Debug\TemplarAnnihilation.csproj.TemplarAnnihilation.exe.config
