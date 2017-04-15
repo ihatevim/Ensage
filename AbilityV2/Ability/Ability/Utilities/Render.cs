@@ -2142,7 +2142,7 @@ namespace Ability.Utilities
                         && !string.IsNullOrEmpty(value))
                     {
                         var size = this._textFont.MeasureText(null, value, 0);
-                        this.Width = size.Left;
+                        this.Width = size.Bottom;
                         this.Height = size.Right;
                         this._textFont.PreloadText(value);
                     }
